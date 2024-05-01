@@ -1,0 +1,71 @@
+Algorithme Affectation_et_Calcul
+   Debut 
+        declaration :
+            a, b, somme
+
+        Affectation de valeurs
+            a <- entrer
+            b <- entrer
+            somme <- a + b
+
+        Afficher "Le somme de a + b"
+        afficher "le carrée de a et b"
+    Fin
+
+boucle et contrôle
+    Debut
+        declaration :
+            choix, n
+        
+        affiche "choix de boucle
+                1 - 1 à 10
+                2 - 1 à 100
+                3 - 1 à 1000"
+                
+        tant que choix > 3 ou choix < 1 :
+            choix <- entrer
+        
+        si choix est 1 alors :
+            n <- 10
+        si choix est 2 alors :
+            n <- 100;
+        si choiw est 3 alors :
+            n <- 1000
+            
+        boucle :
+            i <- 0
+            si i < n alors
+                increment i
+            sinon
+                stop l'incrementation de i
+                
+            Affiche i
+                si i divisible par 2 :
+                    Affiche "tab i"
+                sinon si i divisible par 3 :
+                    Affiche "tab tab i"
+                sinon :
+                    Affiche i
+
+Structude de donnée
+    Debut
+        declaration :
+            tableau[taille 4]
+        
+        Affectation :
+            initialisation du tableau
+                tableau[taille 4] <- {pour chaque valeur 0}
+            tableau[indice 0] <- 10
+            tableau[indice 1] <- 15
+            tableau[indice 2] <- 3
+            
+        fonction afficheTableau de argument tableau et tailleTableau :
+            boucle :
+                i <- 0
+                si i < tailleTableau alors
+                    increment i
+                sinon
+                    stop l'incrementation de i
+                    
+                Affiche "tableau i : tableau[indice i]"
+    Fin
